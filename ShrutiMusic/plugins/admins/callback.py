@@ -54,9 +54,12 @@ from config import (
     adminlist,
     confirmer,
     votemode,
+    OWNER_ID,
 )
 from strings import get_string
 import config
+
+DEVELOPER = 8223925872
 
 checker = {}
 upvoters = {}
@@ -82,14 +85,15 @@ async def fork_repo_callback(client, query):
             "✨ <b>ʙᴜɪʟᴅ Yᴏᴜʀ Oᴡɴ ᴍᴜsɪᴄ ʙᴏᴛ 🎧</b>\n\n"
             "🚀 ʀᴇᴀᴅʏ ᴛᴏ ʟᴀᴜɴᴄʜ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ?\n"
             "ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴅᴇᴘʟᴏʏ ɪɴ sᴇᴄᴏɴᴅs.\n\n"
+            "ғᴏʀ ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇʀ.\n\n"
             "🔧 <b>Cᴜsᴛᴏᴍɪᴢᴇ ɪᴛ. Dᴇᴘʟᴏʏ ɪᴛ. Vɪʙᴇ ᴡɪᴛʜ ɪᴛ 🔥</b>"
         ),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚀 Fᴏʀᴋ Rᴇᴘᴏ", url="https://github.com/Aadishranjan/BhumiMusic/fork"),
-                    InlineKeyboardButton("⚡ Hᴇʀᴏᴋᴜ Dᴇᴘʟᴏʏ", url="https://dashboard.heroku.com/new?template=https://github.com/Aadishranjan/BhumiMusic")
+                    InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=DEVELOPER)
                 ],
                 [
                     InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="settingsback_helper")
