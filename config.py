@@ -21,8 +21,8 @@ UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Aadishranjan/Bhum
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/YutaxBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Royal_Beats")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Bot_X_Galaxy")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Bot_X_Galaxy_world")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/aadish2809")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
 GITHUB = os.getenv("GITHUB", "https://github.com/Aadishranjan")
@@ -46,7 +46,7 @@ STRING5 = os.getenv("STRING_SESSION5", None)
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/7q8bfg.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/c5sw3b.png")
 PING_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"

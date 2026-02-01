@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "29448785",
+      "value": "30810939",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "599574f6aff0a09ebb76305b58e7e9c2",
+      "value": "dafecf4ff7a43734228f21f5114d6800",
       "required": true
     },
     "BOT_TOKEN": {
@@ -29,22 +29,22 @@
     },
     "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
-      "value": "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION",
+      "value": "mongodb://Aadish:aadish2008@ac-owiguby-shard-00-00.cdly6hj.mongodb.net:27017,ac-owiguby-shard-00-01.cdly6hj.mongodb.net:27017,ac-owiguby-shard-00-02.cdly6hj.mongodb.net:27017/?ssl=true&replicaSet=atlas-fgbjd8-shard-0&authSource=admin&retryWrites=true&w=majority&appName=NYCREATION",
       "required": true
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7574330905",
+      "value": "8223925872",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
+      "value": "BhumixYutaBot",
       "required": true
     },
     "UPSTREAM_REPO": {
       "description": "URL of your GitHub repository",
-      "value": "https://github.com/NoxxOP/ShrutiMusic",
+      "value": "https://github.com/Aadishranjan/BhumiMusic",
       "required": false
     },
     "STRING_SESSION": {
@@ -74,17 +74,17 @@
     },
     "SUPPORT_GROUP": {
       "description": "Your support group link",
-      "value": "https://t.me/ShrutiBotsupport",
+      "value": "https://t.me/Bot_X_Galaxy_world",
       "required": false
     },
     "SUPPORT_CHANNEL": {
       "description": "Your support channel link",
-      "value": "https://t.me/ShrutiBots",
+      "value": "https://t.me/Bot_X_Galaxy",
       "required": false
     },
     "INSTAGRAM": {
       "description": "Your Instagram profile link or Any Link",
-      "value": "https://instagram.com/yaduwanshi_nand",
+      "value": "https://instagram.com/aadish2809",
       "required": false
     },
     "YOUTUBE": {
@@ -94,17 +94,17 @@
     },
     "GITHUB": {
       "description": "Your GitHub profile link or Any Link",
-      "value": "https://github.com/NoxxOP",
+      "value": "https://github.com/Aadishranjan",
       "required": false
     },
     "DONATE": {
       "description": "Link where people can support/donate or Any Link",
-      "value": "http://bit.ly/3NITa3G",
+      "value": "https://raw.githubusercontent.com/Aadishranjan/Aadishranjan/main/assets/AadishQR.png",
       "required": false
     },
     "START_IMG_URL": {
       "description": "Image that appears with the /start command",
-      "value": "https://graph.org/file/e054e63251ef2dc5729dd-6f719a9ecc59862631.png",
+      "value": "https://files.catbox.moe/c5sw3b.png",
       "required": false
     }
   },

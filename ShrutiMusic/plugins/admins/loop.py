@@ -1,5 +1,5 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
+# Copyright (c) 2026 Aadish Ranjan <Aadishranjan>
+# Location: India
 #
 # All rights reserved.
 #
